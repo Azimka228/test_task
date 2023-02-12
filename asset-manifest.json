@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Azimka228/test_task/static/js/main.fccb0d45.js",
+    "static/js/787.e8769ff5.chunk.js": "/Azimka228/test_task/static/js/787.e8769ff5.chunk.js",
+    "index.html": "/Azimka228/test_task/index.html",
+    "main.fccb0d45.js.map": "/Azimka228/test_task/static/js/main.fccb0d45.js.map",
+    "787.e8769ff5.chunk.js.map": "/Azimka228/test_task/static/js/787.e8769ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fccb0d45.js"
+  ]
+}
