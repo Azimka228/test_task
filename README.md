@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Test Tasks 
+## Task 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Написать метод/функцию, который/которая на вход принимает массив городов. В качестве результата возвращает строку, где города разделены запятыми, а в конце стоит точка.
 
-## Available Scripts
+Пример:
+«Москва, Санкт-Петербург, Воронеж.»
 
-In the project directory, you can run:
 
-### `npm start`
+## Task 2
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Написать метод/функцию, который/которая на вход принимает число (float), а на выходе получает число, округленное до пятерок.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Пример:
+27 => 25, 27.8 => 30, 41.7 => 40.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Task 3
 
-### `npm run build`
+Написать метод/функцию, который/которая на вход принимает число (int), а на выходе выдает слово “компьютер” в падеже, соответствующем указанному количеству. Например, «25 компьютеров», «41 компьютер», «1048 компьютеров».
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Task 4
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Написать метод/функцию, который/которая на вход принимает целое число, а на выходе возвращает то, является ли число простым (не имеет делителей кроме 1 и самого себя).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Task 5
 
-### `npm run eject`
+Написать метод, который определяет, какие элементы присутствуют в двух экземплярах в каждом из массивов (= в двух и более, причем в каждом). На вход подаются два массива. На выходе массив с необходимыми совпадениями.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Пример:
+[7, 17, 1, 9, 1, 17, 56, 56, 23], [56, 17, 17, 1, 23, 34, 23, 1, 8, 1]
+На выходе: [1, 17]
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Task 6
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Написать метод, который в консоль выводит таблицу умножения. На вход метод получает число, до которого выводит таблицу умножения. В консоли должна появиться таблица. Например, если на вход пришло число 5, то получим:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Важно:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ * В последней строке между числами ровно по одному пробелу должно выводиться.
+ * В каждом столбце числа должны быть выровнены по правому краю.
